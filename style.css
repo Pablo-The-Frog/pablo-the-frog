@@ -195,13 +195,14 @@ html, body {
 }
 
 .collection-item img {
-    width: 180px;
-    height: auto;
-    max-height: 220px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-bottom: 0.5em;
+  width: auto;
+  height: 240px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
 }
+
 
 
 .collection-item p {
@@ -217,11 +218,21 @@ html, body {
     justify-content: center;
     overflow-x: hidden;
   }
+#collections {
+  padding-top: 100px; /* espace pour le burger */
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+  background-color: #111;
+  color: white;
+}
 
-  .collection-item {
-    width: 100%;
-    max-width: 300px;
-  }
+ .collection-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
   .collection-item img {
     width: 100%;
