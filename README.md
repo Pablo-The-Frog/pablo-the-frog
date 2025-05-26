@@ -13,5 +13,5 @@ Ce site vitrine présente la boutique, l’univers de la marque et les produits.
 
 - Hébergement : GitHub Pages
 
-- Style : 🐸 Dark, élégant, dysto-street
+- Style : 🐸 Dark, ribit ribit
 
