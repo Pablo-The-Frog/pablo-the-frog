@@ -1,0 +1,129 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #111;
+  color: #f0f0f0;
+}
+
+/* BURGER - inchangé */
+.boutonBurger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 25;
+}
+
+.span1, .span2, .span3 {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  transition-duration: 0.5s;
+}
+
+.span1 { top: 8px; }
+.span1Open { transform: rotate(-45deg); top: 16px; }
+.span2 { top: 18px; }
+.span2Open { display: none; }
+.span3 { top: 28px; }
+.span3Open { transform: rotate(45deg); top: 16px; }
+
+/* MENU */
+.menuBurger {
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  background-color: #192a56;
+  transition-duration: 0.5s;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuBurgerOpen { left: 0; }
+
+.menuBurger > a {
+  color: #fff;
+  margin: 20px 0;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+/* PRODUIT */
+.fiche-produit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3em;
+  padding: 8em 2em 4em 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img-container img {
+  width: 320px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.infos-produit {
+  max-width: 600px;
+}
+
+.infos-produit h1 {
+  font-size: 2em;
+  margin-bottom: 0.3em;
+  color: #27ae60;
+}
+
+.infos-produit .prix {
+  font-size: 1.5em;
+  color: #f39c12;
+  margin: 0.2em 0;
+}
+
+.infos-produit .desc {
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.bouton-action {
+  display: inline-block;
+  margin-top: 1.5em;
+  padding: 0.8em 2em;
+  background-color: #27ae60;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.bouton-action:hover {
+  background-color: #219150;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .fiche-produit {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-container img {
+    width: 90%;
+  }
+
+  .infos-produit {
+    text-align: center;
+  }
+}
