@@ -11,67 +11,55 @@ html, body {
     --vert: #27ae60;
     --noir: #111;
     --blanc: #fff;
+    --gris-foncé: #222;
+    --gris-clair: #ccc;
+    background-color: var(--noir);
+    color: var(--blanc);
 }
 
-/* MAIN - SECTION À PROPOS */
+/* SECTION CONTACT */
 
 #accueil {
-    height: 100vh;
+    min-height: 100vh;
+    padding: 4em 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 2em;
-    text-align: center;
-    color: var(--blanc);
     background: 
-        linear-gradient(225deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url('../images/background/vert.jpg');
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(3px);
+    text-align: center;
+    backdrop-filter: blur(2px);
 }
 
 #accueil > h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 #accueil > p {
-    font-size: 1.3em;
-    max-width: 800px;
-    line-height: 1.6em;
-    margin-bottom: 1em;
+    font-size: 1.2em;
+    max-width: 600px;
+    line-height: 1.6;
+    margin: 0.5em 0;
 }
 
-/* AUTRES SECTIONS (si utilisées ailleurs) */
-
-#elt1, #elt2, #elt3, #elt4, #elt5 {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: var(--blanc);
+#accueil a {
+    color: var(--jaune);
+    text-decoration: none;
+    font-weight: bold;
 }
 
-#elt1 { background-color: var(--rouge); }
-#elt2 { background-color: var(--orange); }
-#elt3 { background-color: var(--jaune); }
-#elt4 { background-color: var(--bleu); }
-#elt5 { background-color: var(--vert); }
-
-#elt1 > h1,
-#elt2 > h1,
-#elt3 > h1,
-#elt4 > h1,
-#elt5 > h1 {
-    font-size: 3em;
+#accueil a:hover {
+    text-decoration: underline;
 }
 
-/* BOUTON BURGER - inchangé */
+/* BOUTON BURGER */
 
 .boutonBurger {
     position: fixed;
@@ -102,7 +90,7 @@ html, body {
 .span3 { top: 28px; }
 .span3Open { transform: rotate(45deg); top: 16px; }
 
-/* MENU BURGER - inchangé */
+/* MENU BURGER */
 
 .menuBurger {
     position: fixed;
@@ -130,68 +118,15 @@ html, body {
     font-size: 2em;
 }
 
-/* RESPONSIVE COLLECTIONS - inchangé car pas utilisé ici */
+/* RESPONSIVE */
 
-.scroll-container {
-    display: flex;
-    overflow-x: auto;
-    gap: 1em;
-    padding-bottom: 1em;
-    scroll-snap-type: x mandatory;
-}
-
-.collection-item {
-    min-width: 200px;
-    background: #000000;
-    border-radius: 8px;
-    padding: 1em;
-    text-align: center;
-    scroll-snap-align: center;
-    flex-shrink: 0;
-}
-
-.collection-item img {
-    width: auto;
-    height: 240px;
-    max-width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-bottom: 0.5em;
-}
-
-.collection-item p {
-    color: #FFFFFF;
-    font-weight: 900;
-    font-size: 1em;
-    width: 200px;
-}
-
-@media (max-width: 768px) {
-    .scroll-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        overflow-x: hidden;
+@media (max-width: 600px) {
+    #accueil > h1 {
+        font-size: 2.2em;
     }
 
-    #collections {
-        padding-top: 100px;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-bottom: 2em;
-        background-color: #111;
-        color: white;
-    }
-
-    .collection-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .collection-item img {
-        width: 100%;
-        height: auto;
-        max-height: 200px;
-        object-fit: cover;
+    #accueil > p {
+        font-size: 1em;
+        padding: 0 1em;
     }
 }
