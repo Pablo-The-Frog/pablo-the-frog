@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo_The_Frog</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="boutonBurger">
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <span class="span3"></span>
+        </div>
+        <div class="menuBurger">
+            <a href="../index.html" class="elt">Boutique</a>
+            <a href="A-propos.html" class="elt">A propos</a>
+            <a href="contact.html" class="elt">Contact</a>
+        </div>
+        <section id="accueil">
+            <h1>À propos</h1>
+            <p>PABLO est une marque textile , née d’un mélange d'ennuie et de génie globalement. On fait des vêtements pour ceux qui ont l'aura d'un batracien.</p>
+            <p>Chaque pièce est une déclaration. Chaque Pablo est une œuvre d’art portable. Rejoins le mouvement.</p>
+        </section>
+    </main>
+</body>
+</html>
