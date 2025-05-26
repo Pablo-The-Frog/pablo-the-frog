@@ -7,11 +7,11 @@ Ce site vitrine présente la boutique, l’univers de la marque et les produits.
 
 ## 🔧 Stack
 
-HTML5 / CSS3 (4 feuilles dédiées)
+- HTML5 / CSS3 (4 feuilles dédiées)
 
-Vanilla JavaScript (script.js)
+- Vanilla JavaScript (script.js)
 
-Hébergement : GitHub Pages
+- Hébergement : GitHub Pages
 
-Style : 🐸 Dark, élégant, dysto-street
+- Style : 🐸 Dark, élégant, dysto-street
 
