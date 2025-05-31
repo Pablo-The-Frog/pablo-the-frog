@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pablo – Nom du Produit</title>
+  <link rel="stylesheet" href="../../css/Pages-produits.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <script src="../../js/script.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="boutonBurger">
+      <span class="span1"></span>
+      <span class="span2"></span>
+      <span class="span3"></span>
+    </div>
+
+    <div class="menuBurger">
+      <a href="../../index.html" class="elt">Boutique</a>
+      <a href="../A-propos.html" class="elt">À propos</a>
+      <a href="../Contact.html" class="elt">Contact</a>
+    </div>
+
+    <section class="fiche-produit">
+      <div class="img-container">
+        <img src="../../images/pablo_original.png" alt="T-shirt Pablo"/>
+      </div>
+      <div class="infos-produit">
+        <h1>T-shirt Pablo: L'unique</h1>
+        <p class="prix">45€</p>
+        <p class="desc">
+          La pièce, la seule l'unique.
+          Design sérigraphié, 100 % coton bio.
+          Édition limitée – fabriqué à la main, avec des pattes.
+        </p>
+        <a class="bouton-action" href="mailto:pablodafrogg@gmail.com">Acheter</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
