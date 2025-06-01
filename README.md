@@ -1,4 +1,4 @@
-![Logo de Pablo The Frog](images/logo.svg)
+![Logo de Pablo The Frog](images/Logo.svg)
 
 #  Pablo The Frog — Site Officiel
 
