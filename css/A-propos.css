@@ -21,7 +21,7 @@ html, body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: linear-gradient(to bottom right, #111, #222);
+    background: linear-gradient(225deg, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('../images/background/vert.jpg');
     color: #f0f0f0;
     text-align: center;
 }
