@@ -23,3 +23,4 @@ Ce site vitrine présente la boutique, l’univers de la marque et les produits.
 
 Une marque de textile en développement
 Et si vous voulez nous aidé rejoignez notre [discord] (https://discord.gg/rZSzdepd3H)
+[Discord](https://discord.com/invite/MpqbWr3pUG)
