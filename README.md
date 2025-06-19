@@ -22,4 +22,4 @@ Ce site vitrine présente la boutique, l’univers de la marque et les produits.
 # 🧠 Pablo, c’est quoi ?
 
 Une marque de textile en développement
-Et si vous voulez nous aidé rejoignez notre discord (bientot)
+Et si vous voulez nous aidé rejoignez notre [discord] (https://discord.gg/rZSzdepd3H)
